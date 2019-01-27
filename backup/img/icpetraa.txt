@@ -1,0 +1,3 @@
+[client]
+user=icpetraa
+password="1cPetr@@"

@@ -1,0 +1,135 @@
+/* default font */
+@font-face {
+  font-family: 'Authentic Ratatouille';
+  src: url('../fonts/Authentic Ratatouille.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'big_noodle_titling';
+  src: url('../fonts/big_noodle_titling.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'charlie_dotted';
+  src: url('../fonts/charlie_dotted.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* general setting */
+body {
+	background-color:#e3e5e8;
+	color: black;
+}
+
+.container {
+	font-family: 'consolas';
+}
+
+.hor-gap {
+	border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+.ver-gap{
+	border-collapse: separate;
+    border-spacing: 0.5em 0;
+}
+
+.both-gap{
+	border-collapse: separate;
+    border-spacing: 0.5em;
+}
+
+/* header */
+.sub-header {
+	margin-top:-15%;
+	width:100%;
+	text-align:center;
+}
+
+.bulb-left {
+	position:absolute;
+	left:5%;
+	z-index:-1;
+	width:9%;
+}
+
+.bulb-right {
+	position:absolute;
+	right:2%;
+	z-index:-1;
+	width:16%;
+}
+
+.logo {
+	padding:15% 15% 0 15%;
+	height:60%;
+	width:60%;
+}
+
+/* footer */
+
+/* main page */
+.yellow {
+	background-color:#e2b331;
+	color: black;
+	padding:20px;
+	margin: 20px 5px;
+}
+
+.white {
+	background-color:#000;
+	color: white;
+	padding:20px;
+	margin:20px 5px;
+}
+
+#title {
+	font-family: 'big_noodle_titling';
+	font-size: 25px;
+	text-decoration: underline;
+	font-style: bold;
+}
+
+#buttons {
+	font-family: 'big_noodle_titling';
+	font-size: 25px;
+}
+
+.info-yellow {
+	background-color:#e2b331;
+	color: black;
+	padding:10px;
+	margin: 20px 5px;
+}
+
+.info-yellow:hover {
+	background-color:#c69a21;
+}
+
+.info-white {
+	background-color:#000;
+	color: white;
+	padding:10px;
+	margin: 20px 5px;
+}
+
+.info-white:hover{
+	background-color:#1c1c1c;
+}
+
+.up-time {
+	font-style:italic;
+}
+
+/* article page */
+#article-title {
+	font-family:'charlie_dotted';
+	font-size:72px;
+	text-align:center;
+}

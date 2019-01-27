@@ -1,0 +1,9 @@
+ic.petra.ac.id/cpanel
+user : icpetraa
+pass : 1cPetr@@
+
+
+FTP
+host : ic.petra.ac.id
+user : admin
+pass : 1cPetr@@
